@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreehari K | Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+            color:#333;
+        }
+
+        header{
+            background:#24292e;
+            color:white;
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        header h1{
+            font-size:2.5rem;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:1.1rem;
+        }
+
+        nav{
+            background:#0366d6;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        section{
+            max-width:1000px;
+            margin:30px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#0366d6;
+            margin-bottom:15px;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .skill{
+            background:#0366d6;
+            color:white;
+            padding:8px 15px;
+            border-radius:20px;
+        }
+
+        .project{
+            margin-bottom:20px;
+        }
+
+        .project h3{
+            color:#24292e;
+        }
+
+        footer{
+            text-align:center;
+            background:#24292e;
+            color:white;
+            padding:20px;
+            margin-top:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0366d6;
+            color:white;
+            padding:10px 20px;
+            text-decoration:none;
+            border-radius:5px;
+            margin-top:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sreehari K</h1>
+    <p>Aspiring Full Stack Developer | React | Java | Spring Boot</p>
+
+    <a href="https://github.com/yourusername" class="btn">
+        View GitHub
+    </a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Computer Science Engineering graduate passionate about
+        software development and problem solving. Interested in
+        Full Stack Development using React, Node.js, Java and Spring Boot.
+        Currently building projects and preparing for software developer roles.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Java</span>
+        <span class="skill">Spring Boot</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Senior Citizen Safety Monitoring System</h3>
+        <p>
+            Smart elderly care platform using Flutter, Node.js,
+            OCR, GPS tracking and emergency alert features.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>College Event & Resource Sharing Platform</h3>
+        <p>
+            Platform where students can view notes, PYQs and
+            submit college event information for admin approval.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>College Grievance Management System</h3>
+        <p>
+            Web-based grievance management portal with role-based
+            access for students, coordinators, HODs and principal.
+        </p>
+    </div>
+
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <p>
+        B.Tech in Computer Science and Engineering <br>
+        APJ Abdul Kalam Technological University (KTU)
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: yourmail@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    <p>GitHub: github.com/yourusername</p>
+</section>
+
+<footer>
+    <p>© 2026 Sreehari K | Portfolio Website</p>
+</footer>
+
+</body>
+</html>
